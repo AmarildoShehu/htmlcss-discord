@@ -75,7 +75,10 @@ section{
 .bg-white{
     background-color: white;
 }
-.bg-grey{background-color: hsl(0, 3%, 72%);}
+.bg-grey{
+    background-color: hsl(0, 3%, 72%);
+    background-color: white;
+}
 
 .main-container{
     width: 80%;
@@ -123,7 +126,7 @@ footer{
 
 .footer-container{
    width: 1250;
-   height: 800px;
+   height: fit-content;
    background-color: #23272A;
 }
 
@@ -170,8 +173,11 @@ li{
 /*FOOTER INFERIORE*/
 .footer-inf{
     width: 80%;
-    margin: 0 auto;
+    margin: 15px auto;
     display: flex;
     color: white;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    border: 20px 0;
+    align-items: center;
 }
+
