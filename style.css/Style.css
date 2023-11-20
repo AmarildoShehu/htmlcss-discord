@@ -132,8 +132,8 @@ footer{
     width: 80%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
     color: white;
+    justify-content: space-evenly;
 }
 
 h2{
@@ -162,8 +162,16 @@ ul{
 li{
     padding: 5px 0;
 }
-/*
-.footer-inf{
 
+.last-border{
+    border-bottom: 1px solid lightslategrey;
 }
-*/
+
+/*FOOTER INFERIORE*/
+.footer-inf{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
