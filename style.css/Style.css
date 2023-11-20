@@ -62,9 +62,7 @@ p{
     color: white;
 }
 
-
-
-/*CORPO*/
+/*MAIN*/
 main{
    max-width: 1250px;
 }
@@ -116,3 +114,56 @@ p{
     flex-direction: column;
     align-items: center;
 }
+
+/*FOOTER*/
+footer{
+    max-width: 1250px;
+}
+
+
+.footer-container{
+   width: 1250;
+   height: 800px;
+   background-color: #23272A;
+}
+
+
+.footer-sup{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+h2{
+    color: lightsteelblue;
+}
+.span-logo{
+    align-items: center;
+    padding: 20px 0;
+    height: 40px;
+}
+
+.logo-ita{
+    height: 15px;
+}
+
+.social-logo{
+    color: white;
+    width: 60%;
+    justify-content: space-between;
+}
+    
+ul{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+li{
+    padding: 5px 0;
+}
+/*
+.footer-inf{
+
+}
+*/
